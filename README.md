@@ -24,6 +24,31 @@
 - Final Layers: GlobalAveragePooling → Dense (ReLU) → Dropout → Dense (Sigmoid)
 
 ---
+---
+
+## How It Works
+
+1. *Eye Region Detection*:  
+   dlib detects facial landmarks to isolate the left and right eye regions.
+
+2. *Eye State Classification*:  
+   The cropped eye images are passed to the InceptionV3-based model to classify as "Drowsy" or "Non-Drowsy".
+
+3. *Prediction Buffer*:  
+   A sliding window of past N predictions is used to make a stable decision.
+
+4. *Alert Triggering*:  
+   If drowsiness is consistently detected, an emergency sound is played via pygame.
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/AutoSense-Drowsiness-Detection.git
+cd AutoSense-Drowsiness-Detection
+pip install -r requirements.txt
+```
 
 ## File Structure
 
