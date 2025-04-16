@@ -7,14 +7,14 @@ from collections import deque
 
 # Initialize pygame for sound alert
 pygame.mixer.init()
-alert_sound = pygame.mixer.Sound("civil-defense-siren-128262.mp3")
+alert_sound = pygame.mixer.Sound("Path to alarm or use the mp3 file in the same folder")
 
 # Load the trained model
-model = load_model("Path of downloaded h5 model")
+model = load_model("Path of the model")
 
 # Load dlib's face detector and shape predictor
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(r"Path of the shape predictor file")
+predictor = dlib.shape_predictor(r"Path to shape predicter file dlib")
 
 # Eye landmark indexes
 LEFT_EYE_IDX = list(range(36, 42))
