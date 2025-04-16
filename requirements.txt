@@ -5,4 +5,5 @@ dlib==19.24.0
 pygame==2.5.2
 numpy==1.24.3
 
-
+## Shape predictor file download for dlib
+https://drive.google.com/file/d/1TeCzlV7DsliFLq_b7-Bzu8wpcsn1cFdX/view?usp=drive_link
