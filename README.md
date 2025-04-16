@@ -64,11 +64,3 @@ pip install -r requirements.txt
 - *Webcam not detected*:
   - Check that your webcam is working properly and ensure that no other applications are using it.
 ```
-## File Structure
-
-
-### Trained model download
-### .h5 file download
-https://drive.google.com/file/d/1am0K1lqfZq8zP9wdZrcBUrdTXjCkYQIz/view?usp=drive_link
-### Shape predictor file download for dlib
-https://drive.google.com/file/d/1TeCzlV7DsliFLq_b7-Bzu8wpcsn1cFdX/view?usp=drive_link
