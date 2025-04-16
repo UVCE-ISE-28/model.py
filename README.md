@@ -49,7 +49,21 @@ git clone https://github.com/yourusername/AutoSense-Drowsiness-Detection.git
 cd AutoSense-Drowsiness-Detection
 pip install -r requirements.txt
 ```
+## How to Run the Project
+1. Once all dependencies are installed, run the following command in your terminal:
+   
+   ```bash
+   python main.py
+   ```
+#### Troubleshooting:
+```markdown
+## Troubleshooting
+- *Error: 'shape_predictor_68_face_landmarks.dat' not found*:
+  - Ensure you have downloaded the shape predictor file from the provided Google Drive link and placed it in the correct directory.
 
+- *Webcam not detected*:
+  - Check that your webcam is working properly and ensure that no other applications are using it.
+```
 ## File Structure
 
 
